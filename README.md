@@ -20,6 +20,10 @@ Once you have created your listing, you will be given an asset address to forwar
 ### What happens next?
 Once you have paid the small fee, your asset will be listed for sale.  Upon a customer purchasing your token, all bitcoin will be automatically froward to your payout address.
 
+### Other questions
+Why a listing fee?  This is to pay for our web hosting.
+Why is there a purchase fee?  Colour coin transactions require a bitcoin miners fee.  A purchase fee is charge to cover this cost.
+
 ## Futher
 All software is provided free.  Should you wish to create your own listing page, hosted on your own servers you can.
 
