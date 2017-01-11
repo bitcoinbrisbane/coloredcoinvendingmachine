@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ColouredCoinVendingMachine.Models.Listing>
+
+<table class="table">
+    <tr>
+        <th>
+            Asset ID
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssetAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rate)
+        </th>
+        <th>
+            Project URL
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssetId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssetAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProjectUrl)
+            </td>
+            <td>
+                @Html.ActionLink("Buy", "Purchase", "Listing", null, new { id = item.AssetId })
+            </td>
+        </tr>
+    }
+
+</table>

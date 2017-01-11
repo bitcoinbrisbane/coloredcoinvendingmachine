@@ -1,0 +1,99 @@
+﻿@model ColouredCoinVendingMachine.Models.Listing
+
+<div>
+    <h1>New Listing Details</h1>
+    <hr />
+
+    <p>Your listing has been created.  Please send colour coins to this addres to being selling them.</p>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AssetAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssetAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AssetId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssetId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PayOutAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PayOutAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HDPayOutPubKey)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HDPayOutPubKey)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ListingFeeAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ListingFeeAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ListingFee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ListingFee)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AssetDefinitionUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssetDefinitionUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NotificationUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NotificationUrl)
+        </dd>
+
+    </dl>
+</div>

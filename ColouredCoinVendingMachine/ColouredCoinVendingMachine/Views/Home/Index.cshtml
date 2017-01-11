@@ -1,0 +1,20 @@
+﻿@model ColouredCoinVendingMachine.Models.HomeViewModel
+
+@{
+    ViewBag.Title = "Colored Coin Vending Machine";
+}
+
+<div class="panel alert-danger">
+    <strong>TESTNET</strong>
+</div>
+
+<div class="jumbotron">
+    <h1>Vending machine</h1>
+    <p class="lead">List your assets, ICOs or even tickets</p>
+</div>
+
+<div class="row">
+    <h2>Listings</h2>
+
+    @Html.Partial("_Listings", Model.FeaturedListings)
+</div>

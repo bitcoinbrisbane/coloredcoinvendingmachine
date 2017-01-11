@@ -1,0 +1,23 @@
+﻿@model ColouredCoinVendingMachine.Models.OrderViewModel
+
+@{
+    ViewBag.Title = "Purchase";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Purchase</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AssetId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssetId)
+        </dd>
+
+    </dl>
+</div>
